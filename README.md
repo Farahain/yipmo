@@ -13,7 +13,7 @@ To open these notebooks in an executable environment, please go to https://mybin
 
 We considered the data from May 2015 until December 2017. The training data are from May 2015 to December 2016 whereas the test data are from January 2017 to December 2017.
 
-Location for the model considered based on Estate 1 (E1) until Estate 5 (E5).
+Location for the model considered based on Field 1 (F1) until Field 5 (F5).
 
 ## Variables
 
@@ -55,18 +55,18 @@ Definition:
 
 ## Notebooks
 ### Regression model A: Based on Assumption 1
-- Estate 1 (E1)
-- Estate 2 (E2)
-- Estate 3 (E3)
-- Estate 4 (E4)
-- Estate 5 (E5)
+- Field 1 (F1)
+- Field 2 (F2)
+- Field 3 (F3)
+- Field 4 (F4)
+- Field 5 (F5)
 
 ### Regression model B: Based on Assumption 2
-- Estate 1 (E1)
-- Estate 2 (E2)
-- Estate 3 (E3)
-- Estate 4 (E4)
-- Estate 5 (E5)
+- Field 1 (F1)
+- Field 2 (F2)
+- Field 3 (F3)
+- Field 4 (F4)
+- Field 5 (F5)
 
 ## Authors
 
