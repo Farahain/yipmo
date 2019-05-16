@@ -17,13 +17,52 @@ Location for the model considered based on Estate 1 (E1) until Estate 5 (E5).
 
 ## Variables
 
+The dependent variable is yield.
+
+The independent variables are rainfall, foliar, prunning time, prunning cost, manuring time, manuring cost, P&D time and P&D cost.
+
+Definition:
+- Yield = CPB tonnage.
+- Rainfall = Rainfall in mm.
+- Foliar = Number of month after foliar sampling month.
+- Prunning time = Frequency of prunning per month.
+- Prunning cost = Total of prunning cost per month.
+- Manuring time = Frequency of manuring per month.
+- Manuring cost = Total of manuring cost per month.
+- P&D time = Frequency of P&D per month.
+- P&D cost = Total of P&D cost per month.
+
+## Assumption
+
+1. In the case of no data, we substitute the data with 0.
+2. In the case of no data, we perform the imputation method.
+
+## Workflow
+1. Clean the data.
+2. Declare the variables.
+3. Check the correlation.
+4. Variable selection.
+5. Modelling with selected variables.
+6. Estimate the yield prediction.
+7. Calculate the root mean square error (RMSE).
+
+## Notebooks
 
 
 
-## Getting started
+### Regression model A: Based on Assumption 1
+- Estate 1 (E1)
+- Estate 2 (E2)
+- Estate 3 (E3)
+- Estate 4 (E4)
+- Estate 5 (E5)
 
-Each notebook 
-
+#### Regression model B: Based on Assumption 2
+- Estate 1 (E1)
+- Estate 2 (E2)
+- Estate 3 (E3)
+- Estate 4 (E4)
+- Estate 5 (E5)
 
 ## Authors
 
