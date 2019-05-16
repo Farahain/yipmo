@@ -57,7 +57,7 @@ Definition:
 - Estate 4 (E4)
 - Estate 5 (E5)
 
-#### Regression model B: Based on Assumption 2
+### Regression model B: Based on Assumption 2
 - Estate 1 (E1)
 - Estate 2 (E2)
 - Estate 3 (E3)
