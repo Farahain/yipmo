@@ -46,10 +46,14 @@ Definition:
 6. Estimate the yield prediction.
 7. Calculate the root mean square error (RMSE).
 
+## Outputs
+1. Monthly yield = CPB tonnage per month.
+2. Quarterly yield 1 = Total of CPB tonnage for 3 months.
+3. Quarterly yield 3 = Average of CPB tonnage for 3 months.
+4. Half yearly yield 1 = Total of CPB tonnage for 6 months.
+5. Half yearly yield 2 = Average of CPB tonnage for 6 months.
+
 ## Notebooks
-
-
-
 ### Regression model A: Based on Assumption 1
 - Estate 1 (E1)
 - Estate 2 (E2)
