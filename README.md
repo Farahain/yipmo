@@ -5,7 +5,7 @@ This project is part of Yield Prediction Challenge organized by Sime Darby Plant
 
 ## Viewing and running
 
-Copies of the notebooks are hosted here on Github.
+Copies of the notebooks are hosted here on [Github](https://github.com/Farahain/yipmo).
 
 To open these notebooks in an executable environment, please go to https://mybinder.org/v2/gh/Farahain/yipmo/master
 
@@ -55,18 +55,18 @@ Definition:
 
 ## Notebooks
 ### Regression model A: Based on Assumption 1
-- Field 1 (F1)
-- Field 2 (F2)
-- Field 3 (F3)
-- Field 4 (F4)
-- Field 5 (F5)
+- [Field 1 (F1)](https://github.com/Farahain/yipmo/blob/master/model-a-f1.ipynb)
+- [Field 2 (F2)](https://github.com/Farahain/yipmo/blob/master/model-a-f2.ipynb)
+- [Field 3 (F3)](https://github.com/Farahain/yipmo/blob/master/model-a-f3.ipynb)
+- [Field 4 (F4)](https://github.com/Farahain/yipmo/blob/master/model-a-f4.ipynb)
+- [Field 5 (F5)](https://github.com/Farahain/yipmo/blob/master/model-a-f5.ipynb)
 
 ### Regression model B: Based on Assumption 2
-- Field 1 (F1)
-- Field 2 (F2)
-- Field 3 (F3)
-- Field 4 (F4)
-- Field 5 (F5)
+- [Field 1 (F1)](https://github.com/Farahain/yipmo/blob/master/model-b-f1.ipynb)
+- [Field 2 (F2)](https://github.com/Farahain/yipmo/blob/master/model-b-f2.ipynb)
+- [Field 3 (F3)](https://github.com/Farahain/yipmo/blob/master/model-b-f3.ipynb)
+- [Field 4 (F4)](https://github.com/Farahain/yipmo/blob/master/model-b-f4.ipynb)
+- [Field 5 (F5)](https://github.com/Farahain/yipmo/blob/master/model-b-f5.ipynb)
 
 ## Authors
 
