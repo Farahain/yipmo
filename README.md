@@ -11,8 +11,7 @@ To open these notebooks in an executable environment, please go to https://mybin
 
 ## Data
 
-We considered the data from May 2015 until December 2017. The training data are from May 2015 to December 2016 whereas the test data are from January 2017 to December 2017.
-
+We considered the data from May 2014 until December 2017. 
 Location for the model considered based on Field 1 (F1) until Field 5 (F5).
 
 ## Variables
@@ -37,21 +36,21 @@ Definition:
 1. In the case of no data, we substitute the data with 0.
 2. In the case of no data, we perform the imputation method.
 
+For prediction 2018, we resample the data for independent variables from the year 2014 until 2017. We assume the pattern of the data is similar with the past. 
+
 ## Workflow
-1. Clean the data.
-2. Declare the variables.
-3. Check the correlation.
-4. Variable selection.
-5. Modelling with selected variables.
-6. Estimate the yield prediction.
-7. Calculate the root mean square error (RMSE).
+1.	Declare the variables.
+2.	Test correlation of the variables on the yield (CPB tonnage). 
+3.	Variable selection.
+4.	Modelling with the selected variables.
+5.	Estimate the yield prediction.
+6.	Evaluate the yield (CPB tonnage) in monthly, quarterly and half yearly.
+
 
 ## Outputs
 1. Monthly yield = CPB tonnage per month.
-2. Quarterly yield 1 = Total of CPB tonnage for 3 months.
-3. Quarterly yield 2 = Average of CPB tonnage for 3 months.
-4. Half yearly yield 1 = Total of CPB tonnage for 6 months.
-5. Half yearly yield 2 = Average of CPB tonnage for 6 months.
+2. Quarterly yield = Average of CPB tonnage for 3 months.
+3. Half yearly yield = Average of CPB tonnage for 6 months.
 
 ## Notebooks
 ### Regression model A: Based on Assumption 1
@@ -67,6 +66,13 @@ Definition:
 - [Field 3 (F3)](https://github.com/Farahain/yipmo/blob/master/model-b-f3.ipynb)
 - [Field 4 (F4)](https://github.com/Farahain/yipmo/blob/master/model-b-f4.ipynb)
 - [Field 5 (F5)](https://github.com/Farahain/yipmo/blob/master/model-b-f5.ipynb)
+
+### Time series model C with seasonal factors. For this model, the independent variable is time.
+- [Field 1 (F1)](https://github.com/Farahain/yipmo/blob/master/model-c-f1.ipynb)
+- [Field 2 (F2)](https://github.com/Farahain/yipmo/blob/master/model-c-f2.ipynb)
+- [Field 3 (F3)](https://github.com/Farahain/yipmo/blob/master/model-c-f3.ipynb)
+- [Field 4 (F4)](https://github.com/Farahain/yipmo/blob/master/model-c-f4.ipynb)
+- [Field 5 (F5)](https://github.com/Farahain/yipmo/blob/master/model-c-f5.ipynb)
 
 ## Authors
 
